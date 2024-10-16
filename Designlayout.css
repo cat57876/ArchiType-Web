@@ -22,3 +22,9 @@ body {
     .dialog-content {
         padding: 10px;
     }
+#user-style{ /* Text style for user of architype */
+    text-align: left;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    
+}
