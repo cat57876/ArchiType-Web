@@ -1,6 +1,26 @@
-logo{
+/*JR*/
+.logo{
     align-content: center;
 }
-p{
+.title{
+    text-align: left;
+    font-weight: bold;
+    font-family:sans-serif, 'Times New Roman', Times, serif ;
+    text-decoration: underline;
+    background-color: rgba(32, 87, 175, 0.582);
+    border-style: dotted 3px;
+    border-radius: 15px;
+    display: inline;
+    padding: 20px;
+
+}
+.text-review{
+    text-align: left;
+    font-weight: bold;
+    font-family:sans-serif, 'Times New Roman', Times, serif ;
+}
+.button{
+    font-weight: bold;
     text-transform: capitalize;
+    background-color: rgba(32, 87, 175, 0.582);
 }
