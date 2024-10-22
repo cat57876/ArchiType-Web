@@ -1,18 +1,24 @@
 /*JR*/
 .logo{
     align-content: center;
+    margin-bottom: 30px;
+    margin-left: 50px;
 }
 .title{
     text-align: left;
     font-weight: bold;
     font-family:sans-serif, 'Times New Roman', Times, serif ;
     text-decoration: underline;
+    text-transform: capitalize;
     background-color: rgba(32, 87, 175, 0.582);
     border-style: dotted 3px;
     border-radius: 15px;
     display: inline;
     padding: 20px;
     margin-bottom: 60px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
 
 }
 .text-review{
