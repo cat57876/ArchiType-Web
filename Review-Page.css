@@ -12,6 +12,7 @@
     border-radius: 15px;
     display: inline;
     padding: 20px;
+    margin-bottom: 60px;
 
 }
 .text-review{
@@ -27,5 +28,10 @@
 
 .main-form{
     background-color: rgb(32, 87, 175, 0.582);
-    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 50px;
+
 }
