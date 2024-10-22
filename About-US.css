@@ -1,0 +1,36 @@
+/*JR*/
+.logo{
+    align-content: center;
+}
+.title{
+    text-align: left;
+    font-weight: bold;
+    font-family:sans-serif, 'Times New Roman', Times, serif ;
+    text-decoration: underline;
+    background-color: rgba(15, 63, 139, 0.881);
+    border-style: dotted 3px;
+    border-radius: 15px;
+    display: inline;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.p1{
+    width: 30vw;
+    height: 16vh;
+    font-family:sans-serif, 'Times New Roman', Times, serif ;
+    background-color: rgba(32, 87, 175, 0.582);
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.p2{
+    width: 30vw;
+    height: 29vh;
+    font-family:sans-serif, 'Times New Roman', Times, serif ;
+    background-color: rgba(32, 87, 175, 0.582);
+    border-radius: 15px;
+    padding: 10px;
+}
+.names{
+    word-spacing: 250px;
+}
