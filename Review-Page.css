@@ -24,3 +24,8 @@
     text-transform: capitalize;
     background-color: rgba(32, 87, 175, 0.582);
 }
+
+.main-form{
+    background-color: rgb(32, 87, 175, 0.582);
+    align-content: center;
+}
