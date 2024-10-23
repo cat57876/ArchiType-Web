@@ -146,4 +146,13 @@ img{
     transition: 0.5s ease;
     left: 0px;
     top: 70px;
+    top: 85px;
+}
+#Create.button{
+    height: 75px;
+    width: 100px;
+    position: fixed;
+    padding: auto;
+    border: #778da9;
+    border-radius: 15px;
 }
