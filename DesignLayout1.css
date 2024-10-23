@@ -148,11 +148,13 @@ img{
     top: 70px;
     top: 85px;
 }
-#Create.button{
+#C3{
     height: 75px;
     width: 100px;
     position: fixed;
     padding: auto;
     border: #778da9;
     border-radius: 15px;
+    border-style: solid;
+    
 }
