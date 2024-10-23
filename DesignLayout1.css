@@ -138,3 +138,10 @@ img{
     transition: 0.5s ease;
 
 }
+#Create.button{
+    font-weight: bold;
+    font-weight: 500;
+    height: 75px;
+    width: 100px;
+    padding: auto;
+}
