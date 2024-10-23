@@ -1,3 +1,12 @@
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 #logo{
     align-content: center;
@@ -33,9 +42,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.hero{
- 
-}
+
   nav{
     width: 100%;
     display: flex;
@@ -90,13 +97,20 @@ body {
 header {  /* Header style */
     background-color: #778da9;
     height: 85px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    left: 0px;
 }
-nav{
+
+nav{  /*Nav bar all caps design*/
     padding: 2px;
     height: 60px;
     border-radius: 40px;
     text-transform: uppercase;
 }
+
+/*Text, Images, Comment Sections, Etc all moved to the right so there's room for the left nav bar*/
 nav ul li {
     display: inline-block;
     margin: 10px 30px;
@@ -130,18 +144,12 @@ img{
     margin-left: 200px;
 }
 
-.multiselect{
+.multiselect{  /*The filters nav bar on the left*/
     height: 100%;
-    width: 180px;
-    position: absolute;
+    width: 300px;
+    position: relative;
     background-color: #e0e1dd;
     transition: 0.5s ease;
-
-}
-#Create.button{
-    font-weight: bold;
-    font-weight: 500;
-    height: 75px;
-    width: 100px;
-    padding: auto;
+    left: 0px;
+    top: 85px;
 }
