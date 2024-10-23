@@ -1,5 +1,3 @@
-/*LUCERO*/
-
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +13,7 @@ body{
     background-color: #e0e1dd;
 }
 
-.login-box{
+.signup-box{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -24,7 +22,7 @@ body{
     padding: 30px;
 }
 
-.login-header{
+.signup-header{
     text-align: center;
     margin: 20px 0 40px 0;
     font-weight: bold;
@@ -52,7 +50,7 @@ body{
     width: 105%;
 }
 
-.forgot{
+.student{
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
@@ -110,15 +108,3 @@ section a{
     background: #000;
     transform: scale(1,.05,1);
 }
-
-.sign-up-link{
-    text-align: center;
-    font-size: 15px;
-    margin-top: 20px;
-}
-
-.sign-up-link a{
-    color: #000;
-    font-weight: 600px;
-}
-

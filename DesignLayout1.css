@@ -1,23 +1,19 @@
 h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 400%;
 }
 
-h1{
+h1{ /*New today*/
     font-family: Arial, Helvetica, sans-serif;
-}
-
-
-#logo{
-    align-content: center;
 }
 
 body {
         font-family: Arial, sans-serif;
-        margin: 20px;
+        margin: 30px;
     }
 
-    details {
+    details { /*Architypers comments*/
         border: 1px solid #ccc;
         border-radius: 5px;
         padding: 10px;
@@ -56,10 +52,7 @@ body {
     cursor: pointer;
   }
 
-  nav .menu-img{
-    width: 50px;
-    cursor: pointer;
-  }
+
   nav ul{
     flex: 1;
     text-align: right;
@@ -108,6 +101,7 @@ nav{  /*Nav bar all caps design*/
     height: 60px;
     border-radius: 40px;
     text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Text, Images, Comment Sections, Etc all moved to the right so there's room for the left nav bar*/
@@ -146,10 +140,10 @@ img{
 
 .multiselect{  /*The filters nav bar on the left*/
     height: 100%;
-    width: 300px;
+    width: 200px;
     position: relative;
     background-color: #e0e1dd;
     transition: 0.5s ease;
     left: 0px;
-    top: 85px;
+    top: 70px;
 }

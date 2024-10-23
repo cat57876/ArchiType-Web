@@ -38,3 +38,35 @@
 .subname{
     word-spacing: 166px;
 }
+
+/*LUCERO*/
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 400%;
+}
+
+header {  /* Header style */
+    background-color: #778da9;
+    height: 85px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    left: 0px;
+}
+
+nav{  /*Nav bar all caps design*/
+    padding: 2px;
+    height: 60px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
