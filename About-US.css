@@ -1,8 +1,8 @@
-/*JR*/
+/*Jose R*/
 .logo{ /*logo section details */
     align-content: left;
 }
-.title{ /**/
+.title{ /*Subtitles properties and style*/
     text-align: left;
     font-weight: bold;
     font-family:sans-serif, 'Times New Roman', Times, serif ;
@@ -14,7 +14,7 @@
     padding: 20px;
     text-transform: uppercase;
 }
-.p1{
+.p1{ /*About us / welcome style properties*/
     width: 30vw;
     height: 16vh;
     font-family:sans-serif, 'Times New Roman', Times, serif ;
@@ -23,7 +23,7 @@
     padding: 10px;
     
 }
-.p2{
+.p2{ /*"How we started" description style */
     width: 30vw;
     height: 29vh;
     font-family:sans-serif, 'Times New Roman', Times, serif ;
@@ -31,11 +31,11 @@
     border-radius: 15px;
     padding: 10px;
 }
-.names{
+.names{ /*Names for contact style */
     word-spacing: 250px;
     
 }
-.subname{
+.subname{ /*Second line constacts (emails) for contact style */
     word-spacing: 166px;
 }
 
