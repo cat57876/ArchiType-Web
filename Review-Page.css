@@ -1,10 +1,10 @@
-/*JR*/
-.logo{
+/*Jose R*/
+.logo{ /*Logo style*/
     align-content: center;
     margin-bottom: 30px;
     margin-left: 50px;
 }
-.title{
+.title{ /*Title style*/
     text-align: left;
     font-weight: bold;
     font-family:sans-serif, 'Times New Roman', Times, serif ;
@@ -21,18 +21,18 @@
     margin-left: 50px;
 
 }
-.text-review{
+.text-review{ /*Overall text style*/
     text-align: left;
     font-weight: bold;
     font-family:sans-serif, 'Times New Roman', Times, serif ;
 }
-.button{
+.button{ /*button style */
     font-weight: bold;
     text-transform: capitalize;
     background-color: rgba(32, 87, 175, 0.582);
 }
 
-.main-form{
+.main-form{ /*Decor/background style */
     background-color: rgb(32, 87, 175, 0.582);
     margin-top: 50px;
     margin-bottom: 50px;
