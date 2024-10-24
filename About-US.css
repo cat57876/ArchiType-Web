@@ -1,8 +1,8 @@
 /*JR*/
-.logo{
-    align-content: center;
+.logo{ /*logo section details */
+    align-content: left;
 }
-.title{
+.title{ /**/
     text-align: left;
     font-weight: bold;
     font-family:sans-serif, 'Times New Roman', Times, serif ;
