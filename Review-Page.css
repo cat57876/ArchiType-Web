@@ -3,6 +3,7 @@ body{
     background-image: url(reviewbackground.jpeg);
     background-size: contain;
 }
+
 #container{
     
     width: 700px;
@@ -14,7 +15,8 @@ body{
     justify-content: center;/*set content to mid not spacing */
     flex-direction: column;
     /*align-content: center; /*set all to center with no space all mid */
-    margin-top: 390px;
+    margin-top: 90px;
+    margin: 0 auto;
 }
 .logo{ /*Logo style*/
     align-content: center;
@@ -23,6 +25,7 @@ body{
     width: 50vw;
     height: 45vh;
     left: 0px;
+    margin: 0 auto;
     
 }
 
