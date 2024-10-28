@@ -7,54 +7,57 @@
     <link rel="stylesheet" href="Review-Page.css"> <!--Linked to Review-Page CSS-->
 </head>
 <body> <!--Page use as Review Section for income platforms -->
-    <div>
-        <img src="ArchiType.logo copy.jpeg" class="logo">
-    </div>
-    <br>
-    <h2 class="title"> Schedule a review </h2> <!--Header of page - Review page-->
-    <div class="main-form">
-        <p class="text-review">Name</p> <!--Input section for name-->
-        <textarea name="Name" id="name-section" placeholder="Last name, First name"></textarea> 
-        <p class="text-review">Email Address</p> <!--Input section for email address-->
-        <textarea name="Name" id="name-section" placeholder="Provide Email Adress"></textarea><br>
+
+    <div id="container">
+        <div class="logo" >
+            <img lass="logo-edit" src="ArchiType.logo copy.jpeg" >
+        </div>
+        
+        <div class="main-form">
+            <h2 class="title"> Schedule a review </h2> <!--Header of page - Review page-->
+            <br><br>
+            <p class="text-review">Name</p> <!--Input section for name-->
+            <textarea name="Name" id="name-section" placeholder="Last name, First name"></textarea> 
+            <p class="text-review">Email Address</p> <!--Input section for email address-->
+          <textarea name="Name" id="name-section" placeholder="Provide Email Adress"></textarea><br>
        
-        <p class="text-review">Select Review Type:</p> <!--Input section for review type-->
-        <label>
-            <input type="radio" value="Resume Review" name="review" id="id1">Resume Review
-        </label><br>
+           <p class="text-review">Select Review Type:</p> <!--Input section for review type-->
+           <label>
+              <input type="radio" value="Resume Review" name="review" id="id1">Resume Review
+          </label><br>
 
-        <label>
-            <input type="radio" value="Portfolio Review" name="review" id="id2">Portfolio Review
-        </label><br>
+          <label>
+              <input type="radio" value="Portfolio Review" name="review" id="id2">Portfolio Review
+          </label><br>
 
-        <p class="text-review">Subject</p> <!--Input section for subject of portafolio-->
-        <textarea name="Name" id="name-section" placeholder="Provide subject of the portfolio. Ex: college, work, etc. "></textarea> 
-        <p class="text-review">Message</p> <!--Input section for context/message-->
-        <textarea name="Name" id="name-section" placeholder="Provide brief message about any important context. "></textarea> 
-        <p class="text-review">Details</p> <!--Input section for details-->
-        <textarea name="Name" id="name-section" placeholder="Add and additional details or questions. "></textarea> 
+         <p class="text-review">Subject</p> <!--Input section for subject of portafolio-->
+           <textarea name="Name" id="name-section" placeholder="Provide subject of the portfolio. Ex: college, work, etc. "></textarea> 
+           <p class="text-review">Message</p> <!--Input section for context/message-->
+           <textarea name="Name" id="name-section" placeholder="Provide brief message about any important context. "></textarea> 
+           <p class="text-review">Details</p> <!--Input section for details-->
+          <textarea name="Name" id="name-section" placeholder="Add and additional details or questions. "></textarea> 
 
 
-        <p class="text-review">Select available date</p> <!--Display section for date review appointment-->
+          <p class="text-review">Select available date</p> <!--Display section for date review appointment-->
 
-        <select name="Select available date" id="date">
-            <option value="Monday">Monday</option>
-            <option value="Tuesday">Tuesday</option>
-            <option value="Wednesday">Wednesday</option>
-            <option value="Thursday">Thursday</option>
-            <option value="Friday">Friday</option>
-            <option value="Saturday">Saturday</option>
-            <option value="Sunday">Sunday</option>
-        </select>
+          <select name="Select available date" id="date">
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+              <option value="Saturday">Saturday</option>
+              <option value="Sunday">Sunday</option>
+         </select>
 
-        <p class="text-review">Upload File</p> <!--Input section for upload portafolio-->
-        <textarea name="Name" id="name-section" placeholder="Attach resume/portfolio file for review"></textarea> 
-        <br><br>
+         <p class="text-review">Upload File</p> <!--Input section for upload portafolio-->
+         <textarea name="Name" id="name-section" placeholder="Attach resume/portfolio file for review"></textarea> 
+         <br><br>
 
-        <button class="button">  <!--submit button-->
-            submit
-        </button>
+         <button class="button">  <!--submit button-->
+                submit
+            </button>
+        </div>
     </div>
-    
 </body>
 </html>
