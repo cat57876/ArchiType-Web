@@ -2,7 +2,16 @@
 .logo{ /*logo section details */
     align-content: left;
 }
-
+.logo-edit{ /*Logo style*/
+    /* put boxes together*/
+    position: static;
+    width: 650px;
+    height: 300pxs;
+    top: 1px;
+    margin-left: 20px;
+    margin-top: 0px;
+    
+}
 #title1{ /*Subtitles properties and style*/
     text-align: left;
     font-weight: bold;
@@ -15,6 +24,7 @@
     padding: 20px;
     text-transform: uppercase;
     width: 210px;
+    margin-left: 20px;
 }
 #title2{ /*Subtitles properties and style*/
     text-align: left;
@@ -28,6 +38,7 @@
     padding: 20px;
     text-transform: uppercase;
     width: 340px;
+    margin-left: 20px;
 }
 #title3{ /*Subtitles properties and style*/
     text-align: left;
@@ -41,6 +52,7 @@
     padding: 20px;
     text-transform: uppercase;
     width: 250px;
+    margin-left: 20px;
 }
 #container{
     
@@ -55,15 +67,17 @@
     /*align-content: center; /*set all to center with no space all mid */
     margin-top: 90px;
     margin: 0 auto;
+    
 
 }
 #p1{ /*About us / welcome style properties*/
     width: 30vw;
-    height: 20vh;
+    height: 15vh;
     font-family:sans-serif, 'Times New Roman', Times, serif ;
     background-color: rgba(32, 87, 175, 0.582);
     border-radius: 15px;
     padding: 10px;
+    margin-left: 20px;
     
 }
 #p2{ /*"How we started" description style */
@@ -73,6 +87,7 @@
     background-color: rgba(32, 87, 175, 0.582);
     border-radius: 15px;
     padding: 10px;
+    margin-left: 20px;
 }
 .names{ /*Names for contact style */
     word-spacing: 240px;
