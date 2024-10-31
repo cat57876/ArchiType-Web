@@ -1,39 +1,30 @@
 /*Jose R*/
-body{
-    background-image: url(reviewbackground.jpeg);
-    background-size: contain;
-}
-
 #container{
     
     width: 700px;
-    height: 100vh;  
+    height: 110vh;  
     border: 4px solid black;
     background-color: aliceblue;
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;/*set content to mid not spacing */
     flex-direction: column;
-    /*align-content: center; /*set all to center with no space all mid */
-    margin-top: 90px;
+    align-content: center; /*set all to center with no space all mid */
+    margin-top: 100px;
     margin: 0 auto;
     
 
-}
-
-.img-class{
-    
 }
 
 .logo-edit{ /*Logo style*/
   
     /* put boxes together*/
     position: fixed;
-    width: 250px;
+    width: 380px;
     height: 345pxs;
     top: 10px;
-    left: 42vw;;
-    margin-top: 10px;
+    left: 40vw;;
+    margin-top: 13px;
  
   
     
@@ -53,7 +44,8 @@ body{
     margin-bottom: 60px;
     margin-right: 50px;
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 25px;
+    
 }
 
 .text-review{ /*Overall text style*/
@@ -69,10 +61,10 @@ body{
 
 .main-form{ /*Decor/background style */
     background-color: rgb(32, 87, 175, 0.582);
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 50px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 140px;
+    margin-left: 140px;
     padding: 50px;
     display: block;
 
