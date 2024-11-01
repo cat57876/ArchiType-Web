@@ -12,6 +12,17 @@
     margin-top: 0px;
     
 }
+#option{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;/*set content to mid not spacing */
+    align-content: center;
+    display: flex;
+    display: inline-block;
+    background-color: rgba(85, 133, 210, 0.881);
+    
+
+}
 #title1{ /*Subtitles properties and style*/
     text-align: left;
     font-weight: bold;
@@ -106,11 +117,16 @@ h2{
 
 header {  /* Header style */
     background-color: #778da9;
-    height: 85px;
+    height: 99px;
     position: fixed;
     top: 0px;
     width: 100vw;
     left: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+    
 }
 
 nav{  /*Nav bar all caps design*/
