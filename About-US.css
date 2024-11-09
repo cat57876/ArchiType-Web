@@ -1,113 +1,18 @@
 /*Jose R*/
 .logo{ /*logo section details */
     align-content: left;
+    
 }
 .logo-edit{ /*Logo style*/
     /* put boxes together*/
     position: static;
     width: 650px;
-    height: 300pxs;
+    height: 250px;
     top: 1px;
-    margin-left: 20px;
-    margin-top: 0px;
-    
-}
-#option{
-    text-decoration: none;
-    display: flex;
-    justify-content: center;/*set content to mid not spacing */
-    align-content: center;
-    display: flex;
-    display: inline-block;
-    background-color: rgba(85, 133, 210, 0.881);
-    
-
-}
-#title1{ /*Subtitles properties and style*/
-    text-align: left;
-    font-weight: bold;
-    font-family:sans-serif, 'Times New Roman', Times, serif ;
-    text-decoration: underline;
-    background-color: rgba(15, 63, 139, 0.881);
-    border-style: dotted 3px;
-    border-radius: 15px;
-    display: inline;
-    padding: 20px;
-    text-transform: uppercase;
-    width: 140px;
-    margin-left: 20px;
-}
-#title2{ /*Subtitles properties and style*/
-    text-align: left;
-    font-weight: bold;
-    font-family:sans-serif, 'Times New Roman', Times, serif ;
-    text-decoration: underline;
-    background-color: rgba(15, 63, 139, 0.881);
-    border-style: dotted 3px;
-    border-radius: 15px;
-    display: inline;
-    padding: 20px;
-    text-transform: uppercase;
-    width: 219px;
-    margin-left: 20px;
-}
-#title3{ /*Subtitles properties and style*/
-    text-align: left;
-    font-weight: bold;
-    font-family:sans-serif, 'Times New Roman', Times, serif ;
-    text-decoration: underline;
-    background-color: rgba(15, 63, 139, 0.881);
-    border-style: dotted 3px;
-    border-radius: 15px;
-    display: inline;
-    padding: 20px;
-    text-transform: uppercase;
-    width: 250px;
-    margin-left: 20px;
-}
-#container{
-    
-    width: 700px;
-    height: 2000px;  
-    border: 4px solid black;
-    background-color: aliceblue;
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;/*set content to mid not spacing */
-    flex-direction: column;
-    /*align-content: center; /*set all to center with no space all mid */
+    margin-left: 100px;
     margin-top: 90px;
-    margin: 0 auto;
-    
-
-}
-#p1{ /*About us / welcome style properties*/
-    width: 30vw;
-    height: 15vh;
-    font-family:sans-serif, 'Times New Roman', Times, serif ;
-    background-color: rgba(32, 87, 175, 0.582);
-    border-radius: 15px;
-    padding: 10px;
-    margin-left: 20px;
     
 }
-#p2{ /*"How we started" description style */
-    width: 30vw;
-    height: 29vh;
-    font-family:sans-serif, 'Times New Roman', Times, serif ;
-    background-color: rgba(32, 87, 175, 0.582);
-    border-radius: 15px;
-    padding: 10px;
-    margin-left: 20px;
-}
-.names{ /*Names for contact style */
-    word-spacing: 240px;
-    
-}
-.subname{ /*Second line constacts (emails) for contact style */
-    word-spacing: 166px;
-}
-
 /*LUCERO*/
 h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -144,3 +49,141 @@ nav{  /*Nav bar all caps design*/
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
+/*Jr new here css*/
+
+body{background-color: #e0e1dd;}
+.container {
+    overflow: auto; /* Clears the float so the container wraps around its children */
+    margin-left: 100px;
+    margin-right: 90px;
+}
+  
+.text {
+    float: left; /* Float the text to the left */
+    width: 60%; /* Optionally set a width for the text */
+    background-color: rgba(85, 133, 210, 0.881);
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 10%;
+    margin-top:80px ;
+    
+
+}
+  
+.image {
+    margin-left: 1790px; /* Float the image to the right */
+    width: 25%; /* Optionally set a width for the image */
+    margin-right:480px;
+    
+}
+  
+.image img {
+    width: 100%; /* Ensures the image is responsive */
+    height: auto;
+}
+
+
+
+.container2 {
+    overflow: auto; /* Clears the float so the container wraps around its children */
+}
+  
+.text2 {
+    float: right; /* Float the text to the left */
+    width: 65%; /* Optionally set a width for the text */
+    background-color: rgba(85, 133, 210, 0.881);
+    font-size: 30px;
+    margin-right: 70px;
+    padding: 25px;
+    border-radius: 10%;
+    margin-top:80px ;
+    
+
+}
+  
+.image2 {
+    width: 30%; /* Optionally set a width for the image */
+    right: 100px;
+    margin-left: 50px;
+}
+  
+.image2 img {
+    width: 90%; /* Ensures the image is responsive */
+    height: auto;
+    margin-left: 40px;
+    margin-top: 19px;
+}
+
+.container3{
+    background-color: rgb(106, 133, 207);
+    height: 100px;
+    width: 2620px;
+    text-align: justify;
+    justify-content: space-evenly; 
+    margin-left: 90px;
+
+}
+
+
+.names{
+    margin-left: 30px;
+    display: flex;
+    right: 0px;
+    padding-right: 330px;
+    display: inline-block;
+    font-size: 30px;
+}
+.names1{
+    display: flex;
+    padding-right: 250px;
+    display: inline-block;
+    font-size: 30px;
+   
+    
+}
+.names2{
+    display: flex;
+    padding-right: 380px;
+    display: inline-block;
+    font-size: 30px;
+    
+}
+.names3{
+    display: flex;
+    display: inline-block;
+    font-size: 30px;
+}
+.title1{
+    text-align: left;
+    font-weight: bold;
+    font-family:sans-serif, 'Times New Roman', Times, serif ;
+    text-decoration: underline;
+    background-color: rgba(15, 63, 139, 0.881);
+    border-style: dotted 3px;
+    border-radius: 15px;
+    display: inline;
+    padding: 20px;
+    text-transform: uppercase;
+    width: 140px;
+    margin-left: 20px;
+}
+
+.container4{
+    background-color: rgba(85, 133, 210, 0.881);
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 15%;
+    margin-left: 80px;
+    margin-right: 40px;
+    width: 350px;
+
+}
+.logo5{
+    width: 550px;
+    display: flex;
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 80px;
+}
+
+
