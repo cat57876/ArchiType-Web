@@ -53,67 +53,61 @@ nav{  /*Nav bar all caps design*/
 
 body{background-color: #e0e1dd;}
 .container {
-    overflow: auto; /* Clears the float so the container wraps around its children */
+    overflow: auto; 
     margin-left: 100px;
     margin-right: 90px;
 }
   
 .text {
-    float: left; /* Float the text to the left */
-    width: 60%; /* Optionally set a width for the text */
+    float: left; /* Float text to the left */
+    width: 60%; 
     background-color: rgba(85, 133, 210, 0.881);
     font-size: 30px;
     padding: 25px;
     border-radius: 10%;
     margin-top:80px ;
     
-
 }
   
-.image {
-    margin-left: 1790px; /* Float the image to the right */
-    width: 25%; /* Optionally set a width for the image */
+.image { /* first image */
+    margin-left: 1790px; 
+    width: 25%; 
     margin-right:480px;
     
 }
   
 .image img {
-    width: 100%; /* Ensures the image is responsive */
     height: auto;
+    margin-top: 30px;
+    width: 780px;  
+    height: 500px;
+    
 }
-
-
-
 .container2 {
-    overflow: auto; /* Clears the float so the container wraps around its children */
+    overflow: auto; 
 }
-  
 .text2 {
-    float: right; /* Float the text to the left */
-    width: 65%; /* Optionally set a width for the text */
+    float: right; 
+    width: 65%; 
     background-color: rgba(85, 133, 210, 0.881);
     font-size: 30px;
     margin-right: 70px;
     padding: 25px;
     border-radius: 10%;
     margin-top:80px ;
-    
 
 }
-  
 .image2 {
-    width: 30%; /* Optionally set a width for the image */
+    width: 30%; 
     right: 100px;
     margin-left: 50px;
 }
-  
 .image2 img {
-    width: 90%; /* Ensures the image is responsive */
+    width: 90%; 
     height: auto;
     margin-left: 40px;
     margin-top: 19px;
 }
-
 .container3{
     background-color: rgb(106, 133, 207);
     height: 100px;
@@ -121,10 +115,7 @@ body{background-color: #e0e1dd;}
     text-align: justify;
     justify-content: space-evenly; 
     margin-left: 90px;
-
 }
-
-
 .names{
     margin-left: 30px;
     display: flex;
