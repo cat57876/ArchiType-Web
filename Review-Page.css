@@ -38,42 +38,42 @@ h1{
     margin-left: 200px;
 }
 
+/*---------------------------*/
 
-
-#container{
-    
-    width: 700px;
-    height: 115vh;  
-    border: 4px solid black;
-    background-color: aliceblue;
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;/*set content to mid not spacing */
-    flex-direction: column;
-    align-content: center; /*set all to center with no space all mid */
-    margin-top: 150px;
-    margin: 0 auto;
-    
-
+body{background-color: #e0e1dd;}
+.container {
+    overflow: auto; 
+    margin-left: 100px;
+    margin-right: 90px;
 }
-
-.logo-edit{ /*Logo style*/
   
-    /* put boxes together*/
-    position: static;
-    width: 380px;
-    height: 345pxs;
-    top: 10px;
-    left: 40vw;;
-    display: flex;
-    flex-direction: column;
-    align-content: center; /*set all to center with no space all mid */
-
-    margin: 0 auto;
- 
-
+.text {
+    float: left; /* Float text to the left */
+    width: 60%; 
+    background-color: rgba(85, 133, 210, 0.881);
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 10%;
+    margin-top:80px ;
     
 }
+  
+.image { /* first image */
+    margin-left: 1790px; 
+    width: 25%; 
+    margin-right:480px;
+    
+}
+  
+.image img {
+    height: auto;
+    margin-top: 130px;
+    width: 880px;  
+    height: 600px;
+    left: 19px;
+    
+}
+
 
 .title{ /*Title style*/
     text-align: left;
@@ -102,15 +102,47 @@ h1{
     font-weight: bold;
     text-transform: capitalize;
     background-color: rgba(32, 87, 175, 0.582);
+    font-size: 30px;
 }
 
 .main-form{ /*Decor/background style */
-    background-color: rgb(32, 87, 175, 0.582);
-    margin-top: 10px;
+    position: absolute;
+    background-color: rgba(100, 151, 233, 0.881);
     margin-bottom: 50px;
-    margin-right: 140px;
-    margin-left: 140px;
-    padding: 50px;
-    display: block;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 30px;
+    border-radius: 6%;
+    width: 900px;
+    top: 1000px;
+    
+    
+}
+
+
+.image1 { /* first image */
+    margin-left: 1390px; 
+    width: 25%; 
+    margin-right:480px;
+    
+}
+  
+.image1 img {
+    height: auto;
+    margin-top: 130px;
+    width: 980px;  
+    height: 700px;
+    left: 19px;
+    
+}
+.TitleResult{
+    position: absolute;
+    font-size: 50px;
+    background-color:  rgba(85, 133, 210, 0.881);
+    left: 1671px;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 20px;
 
 }
